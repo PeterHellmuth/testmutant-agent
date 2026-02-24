@@ -1,0 +1,11 @@
+name: 'TestMutant Agent'
+description: 'Runs the TestMutant agent to find un-mutated code and detect your project type.'
+author: 'TestMutant'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+
+branding:
+  icon: 'shield'
+  color: 'purple'
